@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+#img-logo {
+    width: 83px;
+    position: absolute;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    margin-left: 42px;
+    margin-top: 2px;
+}
+
+body {
+    background-color: #fdedee;
+}
+
+.left {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 48px;
+}
+
+#background-body {
+    width: 665.5px;
+    height: auto;
+    padding-top: 63px;
+    margin-left: -30px;
+}
+
+.box{
+    max-width: 510px;
+    height: 497.594px;
+    background-color: #fdedee;
+    margin-bottom: 100px;
+    display: flex;
+    right: 0;
+    margin-top: 32px;
+    margin-right: 96px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px rgba(154, 152, 152, 0.187);
+}
+
+.box h2 {
+    color: #414143;
+    text-align: center;
+    padding: 35px 105px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    font-size: 38.2px;
+    letter-spacing: 2px;
+    line-height: 48px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.box h4 {
+    color: rgba(0, 0, 0, 0.633);
+    margin-top: 1px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+
+.cards-laterais {
+    margin: auto;
+}
+
+.inputs-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 40px;
+}
+
+.card1 {
+    cursor: pointer;
+    width: 410px;
+    height: 50px;
+    background-color: rgb(100, 131, 186);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 4px;
+}
+
+#card-google {
+    background-color: rgba(0, 0, 0, 0.249);
+    cursor: pointer;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    padding: 7px 20px;
+}
+
+.content-box h5 {
+   color: white;
+   font-family: sans-serif;
+   font-size: 15px;
+   padding-left: 75px;
+   font-weight: bold;
+}
+
+
+.card1 img {
+    width: 36px;
+    border-radius: 10px;
+}
+
+#img-gogle {
+    width: 31px;
+    padding-top: 2px;
+}
+
+#h5-google {
+    padding-left: 78px;
+}
+
+#content-google {
+    padding-left: 23px;
+}
+
+.cards-laterais {
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card2 {
+    width: 189px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.151);
+    cursor: pointer;
+}
+
+.card2:hover {
+    background-color: rgb(249, 36, 36);
+    transition: 0.3s all;
+    color: white;
+}
+
+.card2 h4:hover {
+    color: white;
+    transition: 0.3s all;
+}
+
+.card2 h4{
+    color: rgba(0, 0, 0, 0.361);
+    font-family: 'Cabin', sans-serif;
+    font-size: 17px;
+    font-family: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+@media screen and (max-width: 500px){
+    #background-body {
+        width: 100%;
+        margin-top: -85px;
+        padding-left: 12px;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-logo {
+        width: 86px;
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 0;
+        transition: all 0.2s;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        background-color: #fdedee;
+        width: 100%;
+        margin-left: -24px;
+    }
+    
+    .box h2 {
+    color: #414143;
+    padding: 0px 2px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 1.7px;
+    }
+
+    .box h4 {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    #breake-row {
+        display: none;
+    }
+
+    .card1 {
+        width: 100%;
+    }
+
+    .cards-laterais {
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+
+    }
+    
+    .card2 h4 {
+        margin-top: 5px;
+    }
+
+    .card2 {
+        width: 400px;
+    }
+
+    .inputs-box {
+        margin-top: -10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 462px){
+
+     .box h2 {
+        font-size: 25px;
+     }
+
+}
+
+@media screen and (max-width: 461px){
+
+    .box h2 {
+       font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width: 434px){
+
+    .box h2 {
+       font-size: 21px;
+    }
+
+    .box h4 {
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 700px){
+    body {
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #background-body {
+        width: 100%;
+        margin-top: -85px;
+        padding-left: 12px;
+    }
+
+    #img-logo {
+        width: 86px;
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 0;
+        transition: all 0.2s;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        background-color: #fdedee;
+        width: 90%;
+        margin-left: 15px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -56px;
+        
+    }
+
+    .box h2 {
+        color: #414143;
+        padding: 0px 2px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        letter-spacing: 1.7px;
+        text-align: center;
+        }
+    
+        .box h4 {
+            font-size: 16px;
+            padding-top: 10px;
+        }
+    
+        
+        #breake-row {
+            display: none;
+        }
+    
+        .card1 {
+            width: 100%;
+        }
+    
+        .cards-laterais {
+            width: 100%;
+            margin: auto;
+            margin-top: 25px;
+            align-items: center;
+        }
+
+        .input-box {
+            width: 50%;
+        }
+
+       
+
+}
+
+@media screen and (min-width: 617px) and (max-width: 700px){
+
+    .box {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card1 {
+        width: 100%;
+    }
+
+    .box h2 {
+        font-size: 30px;
+    }
+
+    .box {
+        margin-top: -50px;
+    }
+
+    .card2 {
+        width: 99%;
+    }
+
+   
+}
